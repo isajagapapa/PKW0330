@@ -231,13 +231,6 @@ section {
     margin-bottom: 0;
 }
 
-.RP{
-    list-style-type: decimal;
-}
-.PO{
-    list-style: circle;
-}
-
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -396,6 +389,13 @@ section {
   .portfolio p{
       text-decoration: none;
   }
+
+  .section-title a{
+    color: #aeaeae;
+  }
+.section-title :hover{
+  color: #aeaeae;
+}
 
   /* kontak */
   .contact .info i {
